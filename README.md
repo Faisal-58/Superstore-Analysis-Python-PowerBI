@@ -52,7 +52,7 @@ Performed in Jupyter using Seaborn, Matplotlib, and Plotly:
 
 > 🖼️ Visuals include interactive bar charts, line plots, and category-wise plots.
 
-
+![Monthly Sales Plot](images/monthly_sales_plot.png)
 
 ---
 
