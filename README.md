@@ -97,6 +97,88 @@ This visualization was created using Seaborn's barplot for clear comparison of c
 
 
 
+| Category        | Total Sales (USD) |
+| --------------- | ----------------- |
+| Furniture       | \$723,538.48      |
+| Office Supplies | \$703,212.82      |
+| Technology      | **\$825,856.11**  |
+
+**Key Insights**:
+Technology Leads:
+Technology outperformed both Furniture and Office Supplies in terms of total sales. This suggests stronger customer demand or higher price points in this category.
+
+Competitive Middle Segment:
+Furniture and Office Supplies had nearly identical performance, indicating close competition or similar market behavior in sales volume.
+
+ **Business Implications**:
+Technology is a potential focus for marketing, upselling, and bundling strategies.
+
+Furniture and Office Supplies may need targeted promotions or pricing strategies to boost sales.
+
+**Sales by Region**
+This bar chart illustrates total sales figures across four major regions: South, West, Central, and East.
+
+![Sales by Region](images/sales_by_region.png)
+
+
+Figure: Total Sales by Region (visualized using Seaborn)
+
+**Interpretation**:
+🟠 West is the top-performing region, with total sales exceeding $700,000, likely due to a combination of high customer volume and product demand.
+
+🔴 East follows closely behind, also showing strong sales performance, suggesting a healthy market share.
+
+🟢 Central reports moderate sales around the half-million mark, indicating opportunities for growth.
+
+🔵 South records the lowest sales (~$390,000) among the four, pointing to potential gaps in distribution, demand, or marketing outreach.
+
+**Insights & Next Steps**:
+Consider investigating product preferences, customer behavior, or demographic factors in underperforming regions.
+
+Explore whether promotional efforts or logistic support vary across regions.
+
+**Top 10 Cities by Sales**
+
+This visualization displays the top 10 U.S. cities ranked by their total sales figures. The horizontal bar chart provides a clear comparison of sales performance across these major metropolitan areas.
+
+Key Observations
+New York City leads significantly with sales approaching $250,000, making it the top-performing city by a considerable margin.
+
+West Coast dominance:
+
+Los Angeles ranks second
+
+Seattle and San Francisco both appear in the top 5
+
+San Diego also makes the top 10
+
+Regional distribution:
+
+Northeast: New York City, Philadelphia
+
+West: Los Angeles, Seattle, San Francisco, San Diego
+
+Midwest: Chicago, Detroit
+
+South: Houston, Jacksonville
+
+Sales range:
+
+Highest (NYC): ~$250,000
+
+Lowest (Detroit): ~$50,000
+
+Potential Insights
+The coastal cities (both East and West) generally show stronger sales performance than inland cities
+
+There appears to be roughly a 5x difference between the highest and lowest performing cities in the top 10
+
+The presence of tech hubs (Seattle, San Francisco) suggests technology-driven sales may be a significant contributor
+
+
+
+
+
 
 
 
