@@ -141,10 +141,12 @@ Explore whether promotional efforts or logistic support vary across regions.
 
 This visualization displays the top 10 U.S. cities ranked by their total sales figures. The horizontal bar chart provides a clear comparison of sales performance across these major metropolitan areas.
 
-Key Observations
+![Top 10 Cities by Sales](images/top_cities_by_sales.png)
+
+**Key Observations**
 New York City leads significantly with sales approaching $250,000, making it the top-performing city by a considerable margin.
 
-West Coast dominance:
+**West Coast dominance**:
 
 Los Angeles ranks second
 
@@ -152,7 +154,7 @@ Seattle and San Francisco both appear in the top 5
 
 San Diego also makes the top 10
 
-Regional distribution:
+**Regional distribution**:
 
 Northeast: New York City, Philadelphia
 
@@ -162,18 +164,72 @@ Midwest: Chicago, Detroit
 
 South: Houston, Jacksonville
 
-Sales range:
+**Sales range**:
 
 Highest (NYC): ~$250,000
 
 Lowest (Detroit): ~$50,000
 
-Potential Insights
-The coastal cities (both East and West) generally show stronger sales performance than inland cities
+**Potential Insights**
+The coastal cities (both East and West) generally show stronger sales performance than inland cities.There appears to be roughly a 5x difference between the highest and lowest performing cities in the top 10. The presence of tech hubs (Seattle, San Francisco) suggests technology-driven sales may be a significant contributor
 
-There appears to be roughly a 5x difference between the highest and lowest performing cities in the top 10
+**Distribution of Shipping Delay (Days) Analysis**
+This visualization shows the frequency distribution of shipping delays (in days) for orders. The chart helps identify common delay patterns and potential bottlenecks in the shipping process.
 
-The presence of tech hubs (Seattle, San Francisco) suggests technology-driven sales may be a significant contributor
+![Distribution of Shipping Delay (Days)](images/shipping_delay_days.png)
+
+**Key Observations**
+**Most Frequent Delays**:
+
+4 days is the highest bar, meaning this is the most common delay duration.
+
+This suggests systemic delays in shipping (e.g., carrier bottlenecks, processing time).
+
+**Other Observations**:
+
+0–3 days: Fewer orders experience shorter delays, implying on-time or near-on-time delivery is less common.
+
+5–7 days: Delays taper off but still occur, indicating occasional severe slowdowns.
+
+Implications:
+
+The distribution is right-skewed, with most delays clustered around 3–5 days.
+
+Customers frequently experience 4-day delays, which may harm satisfaction if not communicated properly.
+
+Root Causes & Recommendations
+**Potential Issues**:
+
+Warehouse processing inefficiencies.
+
+Carrier pickup/delivery bottlenecks (e.g., high-volume shipping hubs).
+
+Lack of expedited shipping options.
+
+**Improvement Actions**:
+
+Audit Logistics Partners:
+
+Are carriers consistently missing SLAs?
+
+Is there a regional bottleneck (e.g., a specific distribution center)?
+
+**Optimize Order Processing**:
+
+Reduce "click-to-ship" time with automation.
+
+**Set Clear Expectations**:
+
+Update checkout pages to reflect realistic delivery estimates.
+
+
+**Order Count by Weekday**
+The countplot shows order count by weekday.
+
+![Order Count by Weekday](images/order_count_weekday.png)
+
+Tuesady is the day with the highest order count, followed by Saturday. The higher order count on Saturday can be attributed to the weekend promotions and high traffic due to off from work and people ordering more. The highest order count on Tuesday can be related to midweek promotions for boosting the sales.
+
 
 
 
