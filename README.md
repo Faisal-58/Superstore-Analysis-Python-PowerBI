@@ -249,8 +249,14 @@ Using the cleaned dataset, I created an interactive Power BI dashboard including
 - ✅ Top-performing categories and products
 - ✅ Filters for Order Date and Category
 - ✅ KPI Cards for Total Sales, Sales YOY Growth, Total Orders, Distinct Customers and Avg. Order Value (**Using DAX**)
+  
+Below are the screenshots of the dashboard build using PowerBI. 
 
-📁 File: `powerbi/superstore_analysis.pbix`
+![Sales Dashboard](images/dashboard1.png)
+
+
+![Sales Dashboard](images/dashboard2.png)
+
 
 ---
 
